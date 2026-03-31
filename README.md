@@ -1,5 +1,9 @@
 ## Hi there 👋
 
+**Pronouns:** he/him/his
+
+> 🔍 **Actively seeking employment** — Senior Software Engineer with 12 years of experience. Open to full-time opportunities.
+
 ---
 
 ## 🚀 Recent Projects
@@ -15,6 +19,10 @@
 ---
 
 ## 📊 GitHub Stats
+
+<p align="center">
+  <img src="./repo-stats.svg" alt="Repository Overview — 25 repos, 19 stars, 6 forks, 19 watchers" />
+</p>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ligerzero459&show_icons=true&theme=default&hide_border=true" alt="ligerzero459's GitHub stats" />
