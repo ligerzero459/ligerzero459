@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./profile-header.svg" alt="Ligerzero — GitHub member since 2012, ~14 years, contribution graph" />
+</p>
+
 ## Hi there 👋
 
 **Pronouns:** he/him/his
