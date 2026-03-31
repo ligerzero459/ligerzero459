@@ -1,9 +1,6 @@
 <p align="center">
-  <img src="./profile-header.svg" alt="Ligerzero — GitHub member since 2012, ~14 years, contribution graph" />
-</p>
-
-<p align="center">
-  <img src="./repo-stats.svg" alt="Repository Overview — 25 repos, 19 stars, 6 forks, 19 watchers" />
+  <img src="./profile-header.svg" alt="Ligerzero — GitHub member since 2012, ~14 years, contribution graph" width="58%" />
+  <img src="./repo-stats.svg" alt="Repository Overview — 25 repos, 19 stars, 6 forks, 19 watchers" width="36%" />
 </p>
 
 **Pronouns:** he/him/his
@@ -21,4 +18,3 @@
 | [fastify-template-postgres](https://github.com/ligerzero459/fastify-template-postgres) | Template for a Fastify web server with a PostgreSQL connection | JavaScript |
 | [resume-terminal-site-template](https://github.com/ligerzero459/resume-terminal-site-template) | A terminal-style resume website built with React, TypeScript, and Vite | TypeScript |
 | [web-service-template](https://github.com/ligerzero459/web-service-template) | LLM-assisted user service starter using TypeScript, PostgreSQL, and Redis | TypeScript |
-
