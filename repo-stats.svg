@@ -1,25 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="495" height="120" viewBox="0 0 495 120" fill="none" role="img" aria-label="Repository Stats">
-  <rect x="0.5" y="0.5" rx="6" height="99%" width="494" fill="#ffffff" stroke="#e4e2e2"/>
+  <style>
+    @media (prefers-color-scheme: light) {
+      .title    { fill: #0969da; }
+      .stat-num { fill: #24292e; }
+      .stat-lbl { fill: #57606a; }
+      .border   { stroke: #d0d7de; }
+      .divider  { stroke: #d0d7de; }
+    }
+    @media (prefers-color-scheme: dark) {
+      .title    { fill: #2f81f7; }
+      .stat-num { fill: #e6edf3; }
+      .stat-lbl { fill: #8b949e; }
+      .border   { stroke: #30363d; }
+      .divider  { stroke: #30363d; }
+    }
+  </style>
+
+  <!-- Border (transparent fill, adaptive stroke) -->
+  <rect x="0.5" y="0.5" rx="6" height="99%" width="494" class="border" fill="transparent" stroke="#d0d7de"/>
 
   <!-- Title -->
-  <text x="25" y="35" font-family="'Segoe UI', Ubuntu, Sans-Serif" font-weight="600" font-size="15" fill="#2f80ed">📦 Repository Overview</text>
+  <text x="25" y="35" font-family="'Segoe UI', Ubuntu, Sans-Serif" font-weight="600" font-size="15" class="title" fill="#0969da">📦 Repository Overview</text>
 
   <!-- Divider -->
-  <line x1="25" y1="45" x2="470" y2="45" stroke="#e4e2e2" stroke-width="1"/>
+  <line x1="25" y1="45" x2="470" y2="45" class="divider" stroke="#d0d7de" stroke-width="1"/>
 
   <!-- Repos -->
-  <text x="85" y="78" font-family="'Segoe UI', Ubuntu, Sans-Serif" font-weight="700" font-size="28" fill="#2d333b" text-anchor="middle">25</text>
-  <text x="85" y="99" font-family="'Segoe UI', Ubuntu, Sans-Serif" font-size="12" fill="#6e7681" text-anchor="middle">Repositories</text>
+  <text x="85" y="78" font-family="'Segoe UI', Ubuntu, Sans-Serif" font-weight="700" font-size="28" class="stat-num" fill="#24292e" text-anchor="middle">25</text>
+  <text x="85" y="99" font-family="'Segoe UI', Ubuntu, Sans-Serif" font-size="12" class="stat-lbl" fill="#57606a" text-anchor="middle">Repositories</text>
 
   <!-- Stars -->
-  <text x="214" y="78" font-family="'Segoe UI', Ubuntu, Sans-Serif" font-weight="700" font-size="28" fill="#2d333b" text-anchor="middle">19</text>
-  <text x="214" y="99" font-family="'Segoe UI', Ubuntu, Sans-Serif" font-size="12" fill="#6e7681" text-anchor="middle">⭐ Stars</text>
+  <text x="214" y="78" font-family="'Segoe UI', Ubuntu, Sans-Serif" font-weight="700" font-size="28" class="stat-num" fill="#24292e" text-anchor="middle">19</text>
+  <text x="214" y="99" font-family="'Segoe UI', Ubuntu, Sans-Serif" font-size="12" class="stat-lbl" fill="#57606a" text-anchor="middle">⭐ Stars</text>
 
   <!-- Forks -->
-  <text x="330" y="78" font-family="'Segoe UI', Ubuntu, Sans-Serif" font-weight="700" font-size="28" fill="#2d333b" text-anchor="middle">6</text>
-  <text x="330" y="99" font-family="'Segoe UI', Ubuntu, Sans-Serif" font-size="12" fill="#6e7681" text-anchor="middle">🍴 Forks</text>
+  <text x="330" y="78" font-family="'Segoe UI', Ubuntu, Sans-Serif" font-weight="700" font-size="28" class="stat-num" fill="#24292e" text-anchor="middle">6</text>
+  <text x="330" y="99" font-family="'Segoe UI', Ubuntu, Sans-Serif" font-size="12" class="stat-lbl" fill="#57606a" text-anchor="middle">🍴 Forks</text>
 
   <!-- Watchers -->
-  <text x="435" y="78" font-family="'Segoe UI', Ubuntu, Sans-Serif" font-weight="700" font-size="28" fill="#2d333b" text-anchor="middle">19</text>
-  <text x="435" y="99" font-family="'Segoe UI', Ubuntu, Sans-Serif" font-size="12" fill="#6e7681" text-anchor="middle">👁️ Watchers</text>
+  <text x="435" y="78" font-family="'Segoe UI', Ubuntu, Sans-Serif" font-weight="700" font-size="28" class="stat-num" fill="#24292e" text-anchor="middle">19</text>
+  <text x="435" y="99" font-family="'Segoe UI', Ubuntu, Sans-Serif" font-size="12" class="stat-lbl" fill="#57606a" text-anchor="middle">👁️ Watchers</text>
 </svg>
